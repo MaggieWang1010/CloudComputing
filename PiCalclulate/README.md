@@ -69,6 +69,6 @@ Stop
 ## Test Result
 Test Case:
 
-How many random numbers to generate: 1000000 Radius = 200
+How many random numbers to generate: 10000 Radius = 200
 
 
