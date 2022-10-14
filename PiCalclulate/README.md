@@ -21,9 +21,9 @@ This project use Hadoop environment of GCP
 ## Prepare input data
   $ mkdir PiCalculation
   $ cd PiCalculation
-  $ vi GenerateRandomNumbers.java
-  $ javac GenerateRandomNumbers.java
-  $ java -cp . GenerateRandomNumbers
+  $ vi Generate_pi_data.java
+  $ javac Generate_pi_data.java
+  $ java -cp . Generate_pi_data 10000 200 > PiCalculationInput
 Input data will store in PiCalculationInput
 
 ## Setup passphraseless ssh
