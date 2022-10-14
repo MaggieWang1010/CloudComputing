@@ -43,10 +43,10 @@ If you cannot ssh to localhost without a passphrase, execute the following comma
   $ sbin/start-dfs.sh
   $ wget http://localhost:9870/
   $ bin/hdfs dfs -mkdir /user
-  $ bin/hdfs dfs -mkdir /user/lchen
-  $ bin/hdfs dfs -mkdir /user/lchen/picalculate
-  $ bin/hdfs dfs -mkdir /user/lchen/picalculate/input
-  $ bin/hdfs dfs -put ../PiCalculation/PiCalculationInput /user/lchen/picalculate/input
+  $ bin/hdfs dfs -mkdir /user/mwang
+  $ bin/hdfs dfs -mkdir /user/mwang/picalculate
+  $ bin/hdfs dfs -mkdir /user/mwang/picalculate/input
+  $ bin/hdfs dfs -put ../PiCalculation/PiCalculationInput /user/mwang/picalculate/input
 If you can not copy input into hadoop dictionary, please restart the virtual machine.
 
 ## Prepare code
@@ -59,10 +59,10 @@ Compile PiCalculation.java and create a jar
 
 ## Run
 Execute
-  $ bin/hadoop jar wc.jar PiCalculation /user/lchen/picalculate/input /user/lchen/picalculate/output5
+  $ bin/hadoop jar wc.jar PiCalculation /user/mwang/picalculate/input /user/mwang/picalculate/output5
 Output
-  $ bin/hdfs dfs -ls /user/lchen/picalculate/output5
-  $ bin/hdfs dfs -cat /user/lchen/picalculate/output5/part-r-00000 
+  $ bin/hdfs dfs -ls /user/mwang/picalculate/output5
+  $ bin/hdfs dfs -cat /user/mwang/picalculate/output5/part-r-00000 
 Stop
   $ sbin/stop-dfs.sh
   
@@ -70,5 +70,5 @@ Stop
 Test Case:
 
 How many random numbers to generate: 10000 Radius = 200
-
+![image](https://user-images.githubusercontent.com/55336314/195896605-94bb6973-432d-40bf-88ee-24d2afa1ada6.png)
 
