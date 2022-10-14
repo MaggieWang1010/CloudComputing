@@ -9,7 +9,7 @@ On the circle: if compare is =
 ![image](https://user-images.githubusercontent.com/55336314/195230106-07fe71f0-f0b1-4868-9808-f797b1902dc4.png)
 
 ## Implementaion 
-Step 1: Generate an input file to the Pi MapReduce program
+Step 1: Generate an input file to the Pi MapReduce program\n
 Step 1.1: Create a regular Java program which accepts two command line arguments.
 R: The radius
 N: The number of (x, y) pairs to create The Java program then randomly generates N pairs of (x, y) and displays them on the standard output. 
