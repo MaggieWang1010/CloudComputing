@@ -27,3 +27,4 @@ d is the damping factor
 * Set up PySpark on GCP
 * Do this question using Scala
 
+More details [slides](https://docs.google.com/presentation/d/17btBlN1gR-NkBgm8s3wEd3bI3PgRXvax15GL5T6fP1w/edit#slide=id.g184994c5208_0_38)
