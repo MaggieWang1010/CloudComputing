@@ -1,7 +1,6 @@
 # Project: Movie Recommendation with MLlib - Collaborative Filtering (implementation 3)  
 ## Recommendation System is a filtration program whose prime goal is to predict the “rating” or “preference” of a user towards a domain-specific item or item. This project will implement movie recommendation by Collaborative Filtering technology.
-<img width="380" alt="image" src="https://user-images.githubusercontent.com/55336314/203538310-30eaf328-24c6-4118-b9b4-4d8988c696cf.png">
-
+![image](https://user-images.githubusercontent.com/55336314/203538822-4fb487db-760b-4653-8dfd-b0ad1e32f06d.png)
 
 ## Step 1: Study PySpark Collaborative Filtering with ALS (local copy pdf, html)
 * Pyspark code (ipynb)
