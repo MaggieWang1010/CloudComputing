@@ -1,10 +1,10 @@
 # Project: Movie Recommendation with MLlib - Collaborative Filtering (implementation 3)  
 ## Step 1: Study PySpark Collaborative Filtering with ALS (local copy pdf, html)
-*Pyspark code (ipynb)
+* Pyspark code (ipynb)
 * data
-* movies.csv - movieId, title, genere
-* ratings.csv - 2.37 MB download
-* tags.csv - userId, movieId, tag, timestamp
+  * movies.csv - movieId, title, genere
+  * ratings.csv - 2.37 MB download
+  * tags.csv - userId, movieId, tag, timestamp
 ## Step 2: Study Colab
 * Getting start with Colab
 * Project Falling Detection: Python + kNN + Colab
