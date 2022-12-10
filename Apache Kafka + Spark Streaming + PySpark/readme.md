@@ -14,4 +14,4 @@ $ bin/kafka-topics.sh --create --topic output_event --bootstrap-server localhost
 ## Step 5: Running spark_processor.py
 
 ---
-More on Google slides [Slides](https://docs.google.com/presentation/d/1g_GliOsjGzCb2gdNcClvWx-7j8VjZxtCyNuMeBczPls/edit?usp=sharing)
+### More on Google slides [Slides](https://docs.google.com/presentation/d/1g_GliOsjGzCb2gdNcClvWx-7j8VjZxtCyNuMeBczPls/edit?usp=sharing)
