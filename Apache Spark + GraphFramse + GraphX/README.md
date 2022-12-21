@@ -15,7 +15,7 @@
     * ![image](https://user-images.githubusercontent.com/55336314/208837336-480d2a41-0a08-4c59-bd6f-b1223121e222.png)
     * ![image](https://user-images.githubusercontent.com/55336314/208837356-cd11aaa5-776b-45d7-8eba-5724a55d0ec4.png)
     * ![image](https://user-images.githubusercontent.com/55336314/208837386-27403b56-fb6f-42c5-9c7a-771a70797085.png)
-  * Spark Submit
+  * spark-submit --packages graphframes:graphframes:0.8.2-spark3.1-s_2.12 pyspark_graphX.py
     * ![image](https://user-images.githubusercontent.com/55336314/208837574-dc00dd7e-2606-4042-bc42-9fcbb9f0fa3a.png)
     * ![image](https://user-images.githubusercontent.com/55336314/208837604-bd0e90f7-9be9-4e35-8921-78b1cbc27821.png)
     * ![image](https://user-images.githubusercontent.com/55336314/208837627-da6cf5b4-a109-4699-bcac-01a073d6f0c1.png)
